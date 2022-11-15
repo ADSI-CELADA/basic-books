@@ -1,7 +1,7 @@
 export const Books = ({ libros }) => {
   return (
     <>
-      <ul key={libros.id}>
+      <ul>
         <li> {libros.nombre_libro} </li>
         <li> {libros.autor_libro} </li>
         <li> {libros.fecha_libro} </li>

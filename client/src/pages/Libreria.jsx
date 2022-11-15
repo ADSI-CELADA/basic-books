@@ -10,7 +10,7 @@ export const Libreria = () => {
       const response = await getBooks();
       setBooks(response.data.data);
     }
-    loadBooks();
+    loadBooks()
   }, []);
 
   return (
