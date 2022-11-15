@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #020202;
+    color:  #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    background-color: #020202;
+    padding: 30px;
+    text-align: center;
+}
+
+ul .a{
+    margin: 60px;
+    font-size: 28px;
+}
+
+
+
