@@ -12,5 +12,6 @@ conexion.connect((error) => {
     if (!error) {
         console.log('Conectado uvub');
     } else {
+        throw new error
     }
 })
